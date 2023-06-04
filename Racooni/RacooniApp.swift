@@ -12,5 +12,6 @@ struct RacooniApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+        }
     }
 }
