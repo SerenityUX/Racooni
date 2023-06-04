@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		01626AB9D9E84FCDD65D39E9 /* Pods_RacooniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABE2515BDE5E8EEACBEBE1 /* Pods_RacooniTests.framework */; };
-		26C7DF6A2A2D3C83006DC943 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 26C7DF692A2D3C83006DC943 /* FirebaseAnalytics */; };
-		26C7DF6C2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 26C7DF6B2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		43FBA2FD2A2D33A500B855DF /* RacooniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */; };
 		43FBA2FF2A2D33A500B855DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA2FE2A2D33A500B855DF /* ContentView.swift */; };
 		43FBA3012A2D33A500B855DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FBA3002A2D33A500B855DF /* Assets.xcassets */; };
@@ -72,8 +70,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C7DF6A2A2D3C83006DC943 /* FirebaseAnalytics in Frameworks */,
-				26C7DF6C2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				973EE50614DE8B788496F01E /* Pods_Racooni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,7 +165,6 @@
 				DFE666C1A53376E1AFFD987C /* Pods-RacooniTests.debug.xcconfig */,
 				52076174901FF96065732FFE /* Pods-RacooniTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -202,8 +197,6 @@
 			);
 			name = Racooni;
 			packageProductDependencies = (
-				26C7DF692A2D3C83006DC943 /* FirebaseAnalytics */,
-				26C7DF6B2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport */,
 			);
 			productName = Racooni;
 			productReference = 43FBA2F92A2D33A500B855DF /* Racooni.app */;
@@ -774,19 +767,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		26C7DF692A2D3C83006DC943 /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 26C7DF682A2D3C83006DC943 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		26C7DF6B2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 26C7DF682A2D3C83006DC943 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsWithoutAdIdSupport;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 43FBA2F12A2D33A400B855DF /* Project object */;
 }
