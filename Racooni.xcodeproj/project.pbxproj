@@ -16,6 +16,8 @@
 		43FBA30E2A2D33A500B855DF /* RacooniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA30D2A2D33A500B855DF /* RacooniTests.swift */; };
 		43FBA3182A2D33A600B855DF /* RacooniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA3172A2D33A600B855DF /* RacooniUITests.swift */; };
 		43FBA31A2A2D33A600B855DF /* RacooniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA3192A2D33A600B855DF /* RacooniUITestsLaunchTests.swift */; };
+		43FBA3272A2D35A900B855DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA3262A2D35A900B855DF /* Model.swift */; };
+		43FBA3292A2D37DC00B855DF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA3282A2D37DC00B855DF /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		43FBA3132A2D33A500B855DF /* RacooniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RacooniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FBA3172A2D33A600B855DF /* RacooniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacooniUITests.swift; sourceTree = "<group>"; };
 		43FBA3192A2D33A600B855DF /* RacooniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacooniUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43FBA3262A2D35A900B855DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		43FBA3282A2D37DC00B855DF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +105,12 @@
 			children = (
 				43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */,
 				43FBA2FE2A2D33A500B855DF /* ContentView.swift */,
+<<<<<<< HEAD
 				26C7DF672A2D39FA006DC943 /* GoogleService-Info.plist */,
+=======
+				43FBA3262A2D35A900B855DF /* Model.swift */,
+				43FBA3282A2D37DC00B855DF /* ViewModel.swift */,
+>>>>>>> 8bb2b78 (current)
 				43FBA3002A2D33A500B855DF /* Assets.xcassets */,
 				43FBA3022A2D33A500B855DF /* Preview Content */,
 			);
@@ -270,7 +279,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43FBA3272A2D35A900B855DF /* Model.swift in Sources */,
 				43FBA2FF2A2D33A500B855DF /* ContentView.swift in Sources */,
+				43FBA3292A2D37DC00B855DF /* ViewModel.swift in Sources */,
 				43FBA2FD2A2D33A500B855DF /* RacooniApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
