@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26C7DF662A2D3634006DC943 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26C7DF652A2D3634006DC943 /* GoogleService-Info.plist */; };
 		43FBA2FD2A2D33A500B855DF /* RacooniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */; };
 		43FBA2FF2A2D33A500B855DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA2FE2A2D33A500B855DF /* ContentView.swift */; };
 		43FBA3012A2D33A500B855DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43FBA3002A2D33A500B855DF /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26C7DF652A2D3634006DC943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43FBA2F92A2D33A500B855DF /* Racooni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Racooni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacooniApp.swift; sourceTree = "<group>"; };
 		43FBA2FE2A2D33A500B855DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				43FBA3172A2D33A600B855DF /* RacooniUITests.swift */,
 				43FBA3192A2D33A600B855DF /* RacooniUITestsLaunchTests.swift */,
+				26C7DF652A2D3634006DC943 /* GoogleService-Info.plist */,
 			);
 			path = RacooniUITests;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26C7DF662A2D3634006DC943 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
