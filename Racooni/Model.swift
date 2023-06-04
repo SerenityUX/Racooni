@@ -1,29 +1,40 @@
-//
-//  Model.swift
-//  Racooni
-//
-//  Created by Thomas Stubblefield on 6/4/23.
-//
-
 import Foundation
+import Firebase
+import FirebaseFirestore
 
 struct Model {
-    var posts: [Post?] = [Post(thumbnail: "https://file-examples.com/storage/fe21cc883e647d01698633c/2017/10/file_example_PNG_1MB.png", latitude: 44.472968, longitude: -73.212767, id: UUID().uuidString)]
+    @Published var posts: [Post] = []
 
-    mutating func getPosts() {
-        //Make an API call to get all the posts
+    init() {
+        FirebaseApp.configure()
+        getPosts()
+    }
 
-        //Format the posts in the Post data type
+    func getPosts() {
+        let db = Firestore.firestore()
+        let collection = db.collection("posts")
 
-        //Set equal to the posts data type
+        collection.getDocuments { snapshot, error in
+            if let error = error {
+                print("Error fetching posts: \(error.localizedDescription)")
+                return
+            }
 
-        posts = []
+            guard let documents = snapshot?.documents else {
+                print("No documents found")
+                return
+            }
+
+            self.posts = documents.compactMap { document in
+                try? document.data(as: Post.self)
+            }
+        }
     }
 }
 
-struct Post: Codable {
+struct Post: Codable, Identifiable {
+    var id: String?
     var thumbnail: String
     var latitude: Double
     var longitude: Double
-    var id: String
 }

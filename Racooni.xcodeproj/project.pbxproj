@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01626AB9D9E84FCDD65D39E9 /* Pods_RacooniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ABE2515BDE5E8EEACBEBE1 /* Pods_RacooniTests.framework */; };
 		26C7DF6A2A2D3C83006DC943 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 26C7DF692A2D3C83006DC943 /* FirebaseAnalytics */; };
 		26C7DF6C2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 26C7DF6B2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport */; };
 		43FBA2FD2A2D33A500B855DF /* RacooniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */; };
@@ -18,6 +19,9 @@
 		43FBA31A2A2D33A600B855DF /* RacooniUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA3192A2D33A600B855DF /* RacooniUITestsLaunchTests.swift */; };
 		43FBA32B2A2D3E7400B855DF /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA32A2A2D3E7400B855DF /* ViewModel.swift */; };
 		43FBA32D2A2D3E8F00B855DF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA32C2A2D3E8F00B855DF /* Model.swift */; };
+		43FBA32F2A2D43D500B855DF /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FBA32E2A2D43D500B855DF /* URLImage.swift */; };
+		973EE50614DE8B788496F01E /* Pods_Racooni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB60AB49015046A0C7DF22DA /* Pods_Racooni.framework */; };
+		A0C787D08ABB0875FD4B9534 /* Pods_Racooni_RacooniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB4EDE56C8491A5AF54F3ACF /* Pods_Racooni_RacooniUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03ABE2515BDE5E8EEACBEBE1 /* Pods_RacooniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RacooniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED824F52501976C4A67AA5C /* Pods-Racooni-RacooniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Racooni-RacooniUITests.release.xcconfig"; path = "Target Support Files/Pods-Racooni-RacooniUITests/Pods-Racooni-RacooniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		239805CC1CBAAA21AFE9278F /* Pods-Racooni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Racooni.debug.xcconfig"; path = "Target Support Files/Pods-Racooni/Pods-Racooni.debug.xcconfig"; sourceTree = "<group>"; };
 		26C7DF672A2D39FA006DC943 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		291853C40B29F52BE727E12F /* Pods-Racooni-RacooniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Racooni-RacooniUITests.debug.xcconfig"; path = "Target Support Files/Pods-Racooni-RacooniUITests/Pods-Racooni-RacooniUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		43FBA2F92A2D33A500B855DF /* Racooni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Racooni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacooniApp.swift; sourceTree = "<group>"; };
 		43FBA2FE2A2D33A500B855DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		43FBA3192A2D33A600B855DF /* RacooniUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacooniUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		43FBA32A2A2D3E7400B855DF /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		43FBA32C2A2D3E8F00B855DF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		43FBA32E2A2D43D500B855DF /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		52076174901FF96065732FFE /* Pods-RacooniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacooniTests.release.xcconfig"; path = "Target Support Files/Pods-RacooniTests/Pods-RacooniTests.release.xcconfig"; sourceTree = "<group>"; };
+		906248D7F38284DDB4B44F49 /* Pods-Racooni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Racooni.release.xcconfig"; path = "Target Support Files/Pods-Racooni/Pods-Racooni.release.xcconfig"; sourceTree = "<group>"; };
+		AB4EDE56C8491A5AF54F3ACF /* Pods_Racooni_RacooniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Racooni_RacooniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB60AB49015046A0C7DF22DA /* Pods_Racooni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Racooni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFE666C1A53376E1AFFD987C /* Pods-RacooniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RacooniTests.debug.xcconfig"; path = "Target Support Files/Pods-RacooniTests/Pods-RacooniTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			files = (
 				26C7DF6A2A2D3C83006DC943 /* FirebaseAnalytics in Frameworks */,
 				26C7DF6C2A2D3C83006DC943 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				973EE50614DE8B788496F01E /* Pods_Racooni.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01626AB9D9E84FCDD65D39E9 /* Pods_RacooniTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0C787D08ABB0875FD4B9534 /* Pods_Racooni_RacooniUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,8 @@
 				43FBA30C2A2D33A500B855DF /* RacooniTests */,
 				43FBA3162A2D33A600B855DF /* RacooniUITests */,
 				43FBA2FA2A2D33A500B855DF /* Products */,
+				90E6FDE3A91F7CE7FFE49286 /* Pods */,
+				F9D5D458CA6608AD81F84D55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +122,7 @@
 		43FBA2FB2A2D33A500B855DF /* Racooni */ = {
 			isa = PBXGroup;
 			children = (
+				43FBA32E2A2D43D500B855DF /* URLImage.swift */,
 				43FBA32A2A2D3E7400B855DF /* ViewModel.swift */,
 				43FBA32C2A2D3E8F00B855DF /* Model.swift */,
 				43FBA2FC2A2D33A500B855DF /* RacooniApp.swift */,
@@ -139,6 +159,30 @@
 			path = RacooniUITests;
 			sourceTree = "<group>";
 		};
+		90E6FDE3A91F7CE7FFE49286 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				239805CC1CBAAA21AFE9278F /* Pods-Racooni.debug.xcconfig */,
+				906248D7F38284DDB4B44F49 /* Pods-Racooni.release.xcconfig */,
+				291853C40B29F52BE727E12F /* Pods-Racooni-RacooniUITests.debug.xcconfig */,
+				0ED824F52501976C4A67AA5C /* Pods-Racooni-RacooniUITests.release.xcconfig */,
+				DFE666C1A53376E1AFFD987C /* Pods-RacooniTests.debug.xcconfig */,
+				52076174901FF96065732FFE /* Pods-RacooniTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9D5D458CA6608AD81F84D55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB60AB49015046A0C7DF22DA /* Pods_Racooni.framework */,
+				AB4EDE56C8491A5AF54F3ACF /* Pods_Racooni_RacooniUITests.framework */,
+				03ABE2515BDE5E8EEACBEBE1 /* Pods_RacooniTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +190,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43FBA31D2A2D33A600B855DF /* Build configuration list for PBXNativeTarget "Racooni" */;
 			buildPhases = (
+				EFA54403CD9B01337C85DEA5 /* [CP] Check Pods Manifest.lock */,
 				43FBA2F52A2D33A500B855DF /* Sources */,
 				43FBA2F62A2D33A500B855DF /* Frameworks */,
 				43FBA2F72A2D33A500B855DF /* Resources */,
+				6F9D66E4CA054C3EB93B3336 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43FBA3202A2D33A600B855DF /* Build configuration list for PBXNativeTarget "RacooniTests" */;
 			buildPhases = (
+				D4BDD6F00EAA03E9CD148C1A /* [CP] Check Pods Manifest.lock */,
 				43FBA3052A2D33A500B855DF /* Sources */,
 				43FBA3062A2D33A500B855DF /* Frameworks */,
 				43FBA3072A2D33A500B855DF /* Resources */,
@@ -185,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43FBA3232A2D33A600B855DF /* Build configuration list for PBXNativeTarget "RacooniUITests" */;
 			buildPhases = (
+				C81804630EE036EF232AA815 /* [CP] Check Pods Manifest.lock */,
 				43FBA30F2A2D33A500B855DF /* Sources */,
 				43FBA3102A2D33A500B855DF /* Frameworks */,
 				43FBA3112A2D33A500B855DF /* Resources */,
+				87747F766531F89A7AE76CC7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +320,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F9D66E4CA054C3EB93B3336 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Racooni/Pods-Racooni-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Racooni/Pods-Racooni-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Racooni/Pods-Racooni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87747F766531F89A7AE76CC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Racooni-RacooniUITests/Pods-Racooni-RacooniUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Racooni-RacooniUITests/Pods-Racooni-RacooniUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Racooni-RacooniUITests/Pods-Racooni-RacooniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81804630EE036EF232AA815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Racooni-RacooniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4BDD6F00EAA03E9CD148C1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RacooniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFA54403CD9B01337C85DEA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Racooni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		43FBA2F52A2D33A500B855DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -279,6 +431,7 @@
 				43FBA2FF2A2D33A500B855DF /* ContentView.swift in Sources */,
 				43FBA32B2A2D3E7400B855DF /* ViewModel.swift in Sources */,
 				43FBA2FD2A2D33A500B855DF /* RacooniApp.swift in Sources */,
+				43FBA32F2A2D43D500B855DF /* URLImage.swift in Sources */,
 				43FBA32D2A2D3E8F00B855DF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +573,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +585,7 @@
 		};
 		43FBA31E2A2D33A600B855DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 239805CC1CBAAA21AFE9278F /* Pods-Racooni.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +615,7 @@
 		};
 		43FBA31F2A2D33A600B855DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906248D7F38284DDB4B44F49 /* Pods-Racooni.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +645,7 @@
 		};
 		43FBA3212A2D33A600B855DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFE666C1A53376E1AFFD987C /* Pods-RacooniTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +666,7 @@
 		};
 		43FBA3222A2D33A600B855DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52076174901FF96065732FFE /* Pods-RacooniTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +687,7 @@
 		};
 		43FBA3242A2D33A600B855DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291853C40B29F52BE727E12F /* Pods-Racooni-RacooniUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +706,7 @@
 		};
 		43FBA3252A2D33A600B855DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED824F52501976C4A67AA5C /* Pods-Racooni-RacooniUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

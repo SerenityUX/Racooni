@@ -1,0 +1,6 @@
+framework module Pods_Racooni {
+  umbrella header "Pods-Racooni-umbrella.h"
+
+  export *
+  module * { export * }
+}

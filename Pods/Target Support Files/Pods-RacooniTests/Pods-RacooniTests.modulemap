@@ -1,0 +1,6 @@
+framework module Pods_RacooniTests {
+  umbrella header "Pods-RacooniTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

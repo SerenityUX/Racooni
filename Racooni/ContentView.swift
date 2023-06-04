@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
 
@@ -6,17 +7,26 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            ForEach(viewModel.posts, id: \.self?.thumbnail) { post in
-                Text("test")
-            }
-            Text("Hello, world!")
+            Text("Burrow")
                 .onTapGesture {
                     print(viewModel.posts)
                 }
+            ForEach(viewModel.posts, id: \.self?.thumbnail) { post in
+                URLImage(url: URL(string: post!.thumbnail)!)
+                    .onTapGesture {
+                        openMaps(latitude: post!.latitude, longitude: post!.longitude)
+                    }
+            }
+
         }
         .padding()
+    }
+}
+
+
+func openMaps(latitude: Double, longitude: Double) {
+    let coordinates = "\(latitude),\(longitude)"
+    if let url = URL(string: "maps://?q=\(coordinates)") {
+        UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 }
